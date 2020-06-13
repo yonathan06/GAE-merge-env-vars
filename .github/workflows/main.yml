@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v1
       - name: Initialize Google Cloud SDK
         # This action is located on https://github.com/zxyle/publish-gae-action
-        uses: yonathan06/GAE-merge-env-vars
+        uses: yonathan06/GAE-merge-env-vars@master
         with:
           path-to-app-yml: ./app.yml
           gae_variables: ewogICJmb28iOiAiYmFyIgp9Cg==
