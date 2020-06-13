@@ -1,0 +1,24 @@
+{
+  "name": "GAE merge env vars",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonathan06/GAE-merge-env-vars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yonathan06/GAE-merge-env-vars/issues"
+  },
+  "homepage": "https://github.com/yonathan06/GAE-merge-env-vars#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "yaml": "^1.10.0"
+  }
+}

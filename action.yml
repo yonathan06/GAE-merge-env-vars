@@ -1,0 +1,13 @@
+name: "GAE Merge Env Vars"
+description: "Greet someone and record the time"
+inputs:
+  path-to-app-yml: # id of input
+    description: "Path to app.yml"
+    required: true
+  gae_variables:
+    description: "GAE variables to be written to the app.yaml file"
+    required: true
+
+runs:
+  using: "node12"
+  main: "index.js"
